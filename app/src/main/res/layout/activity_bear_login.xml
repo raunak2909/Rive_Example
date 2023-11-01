@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="21dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".BearLoginActivity">
+
+    <com.alphabet.rive_example_137.RiveAnimationFixedView
+        android:id="@+id/riveAnimView"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="21dp"
+        app:riveResource="@raw/animated_login_character"
+        android:layout_height="250dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtName"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnChecking"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Checking"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnHandsUp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="HandsUp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnTrigSuccess"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Success"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnTrigFail"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Fail"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
